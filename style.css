@@ -140,9 +140,7 @@ p {
     /* flex-direction: row;
     flex-wrap: nowrap; */
     background-color: #fdf2e9;
-    height: 80vh;
     width: 100vw;
-    display: flex;
     margin: 0 auto;
     padding: 0.32rem;
 }
@@ -365,7 +363,6 @@ p {
 .section-three {
     background-color: white;
     width: 100%;
-    height: 100vh;
 }
 
 .second-container {
@@ -467,7 +464,7 @@ p {
 }
 
 .fa-solid {
-    color: #cf711f;
+    color: #e67f22;
 
 }
 
@@ -979,4 +976,547 @@ footer {
     margin: 0 290px;
     padding: 20px;
 
+}
+
+@media (max-width:450px) {
+    .main-nav-list {
+        display: none;
+    }
+
+    .header {
+        padding: 1rem;
+    }
+
+    .hero {
+        padding-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3rem;
+    }
+
+    .intro {
+        max-width: 60vw;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+
+    }
+
+    .images-img {
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .paragrapgh {
+        margin-bottom: 2rem;
+    }
+
+    .intro-btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-highlighted-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.6rem;
+    }
+
+
+    .intro-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.6rem;
+    }
+
+    .review-container {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .lower-heading {
+        font-size: 1rem;
+    }
+
+    .section-two {
+        padding: 2rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .header-two {
+        display: flex;
+        justify-content: center;
+        font-size: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .company-logo {
+        display: flex;
+        justify-content: center;
+        font-size: 0.1rem;
+        gap: 1rem;
+    }
+
+    .company-logo img {
+        height: 1rem;
+        width: 5rem;
+    }
+
+    .opinion-container {
+        display: flex;
+        padding: 1rem;
+        margin: 0;
+        gap: 1.5rem;
+    }
+
+    .secondary-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .how {
+        font-size: 0.9rem;
+    }
+
+    .secondary-container>.heading {
+        font-size: 1rem;
+        width: 80vw;
+        display: flex;
+        margin-bottom: 0.5rem;
+    }
+
+    .first-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .number {
+        font-size: 2rem;
+    }
+
+    .tell-us {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        width: 70vw;
+        margin-bottom: 1rem;
+    }
+
+    .steps {
+        width: 80vw;
+    }
+
+
+    .first-card:nth-of-type(3) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .first-card {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .phn-img {
+        bottom: 1.2rem;
+        left: 5.2rem;
+
+    }
+
+    .small-circle {
+        width: 15rem;
+        height: 13rem;
+    }
+
+    .circle {
+        position: relative;
+        width: 20rem;
+        bottom: 1rem;
+
+    }
+
+    .choosing {
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .continue {
+        display: flex;
+        margin-left: 3.5rem;
+    }
+
+    .meal-primary {
+        height: 2rem;
+        width: 2rem;
+        overflow: visible;
+    }
+
+    .hakla {
+        height: 4rem;
+    }
+
+    .heading-tertiary {
+        font-size: 0.9rem;
+        display: flex;
+        width: 30vw;
+    }
+
+    .list {
+        font-size: 0.5rem;
+        gap: 0.8rem;
+    }
+
+    .list>.flex {
+        gap: 0.1rem;
+        font-size: 0.6rem;
+    }
+
+    .vegeterian {
+        display: flex;
+        justify-content: start;
+        padding: 5px;
+        font-size: 7px;
+    }
+
+    .vegan {
+        display: flex;
+        justify-content: start;
+        padding: 5px;
+        font-size: 7px;
+    }
+
+    .paleo {
+        display: flex;
+        justify-content: start;
+        padding: 5px 16px;
+        font-size: 8px;
+    }
+
+    .meal-content {
+        padding: 1px;
+    }
+
+    .meal-primary {
+        width: 2rem;
+        box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+        overflow: visible;
+        transition: all 0.4s;
+
+    }
+
+
+    .meal-title {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .flex {
+        display: flex;
+        gap: 0.4rem;
+    }
+
+    .fa-solid {
+        font-size: 10px;
+    }
+
+    .fa-regular {
+        font-size: 10px;
+    }
+
+    .calories {
+        font-size: 0.7rem;
+        display: flex;
+        gap: 0.2rem;
+    }
+
+
+    .Nutriscore {
+        font-size: 0.7rem;
+        display: flex;
+        gap: 0.2rem;
+    }
+
+    li.calories {
+        font-size: 0.7rem;
+        display: flex;
+        gap: 0.2rem;
+    }
+
+    .link {
+        font-size: 0.7rem;
+        margin-bottom: 0.1rem;
+        width: 90vw;
+        text-align: center;
+    }
+
+    .common-for-four {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-container {
+        padding: 3rem;
+    }
+
+    .prior-element {
+        font-size: 1rem;
+    }
+
+    .trial {
+        font-size: 1rem;
+        text-align: start;
+    }
+
+    .elements {
+        margin-bottom: 2.5rem;
+    }
+
+    .feedback {
+        justify-content: space-around;
+    }
+
+    .review-img {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .tips {
+        text-align: center;
+    }
+
+    .images-feedback {
+        width: 40vw;
+        gap: 1px;
+        margin-left: 5.5rem;
+    }
+
+    .gallery-img {
+        width: 5rem;
+    }
+
+    .section-five {
+        padding: 0.1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price {
+        padding: 0.1rem;
+        line-height: normal;
+    }
+
+    .price-info {
+        padding: 1rem;
+        text-align: center;
+
+    }
+
+    .fifth-price {
+        font-size: 0.6rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .fifth-info {
+        font-size: 0.8rem;
+    }
+
+    .sign-up-container {
+        margin: 0.2rem;
+        gap: 0.5rem;
+        padding: 0.2rem;
+    }
+
+    .sign-card {
+        height: 30vh;
+        padding: 0.9rem;
+    }
+
+    .starter-name {
+        font-size: 0.6rem;
+        letter-spacing: normal;
+        margin-bottom: 0.8rem;
+    }
+
+    .starter-price {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .list-info {
+        font-size: 0.6rem;
+    }
+
+    .meal-list {
+        gap: 0.1rem;
+    }
+
+    .fa-solid {
+        align-content: center;
+    }
+
+    .fa-xmark {
+        margin-bottom: 0.1rem;
+    }
+
+    .signed-card {
+        height: 30vh;
+        padding: 0.9rem;
+    }
+
+    .meal-list-two {
+        gap: 0.1rem;
+    }
+
+    .listed-info {
+        font-size: 0.6rem;
+    }
+
+    .about {
+        margin: 0.1rem;
+        font-size: 0.9rem;
+    }
+
+    .review-about {
+        margin: 2.5rem;
+        gap: 0.2rem;
+    }
+
+    .infinite-icon {
+        font-size: 0.5rem;
+    }
+
+    .f-one-about {
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .f-one-description {
+        font-size: 0.5rem;
+        line-height: normal;
+        margin-top: 1rem;
+    }
+
+    .section-six {
+        display: flex;
+    }
+
+    .last-card-container {
+        margin: 1rem;
+        align-items: center;
+    }
+
+    .form-img {
+        height: 15rem;
+        width: 8.5rem;
+    }
+
+    .orng-crd {
+        height: 15rem;
+        width: 16.5rem;
+        padding: 0.5rem;
+    }
+
+    .head-para>.heading {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .orng-para {
+        font-size: 0.6rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .your-form {
+        margin-top: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .your-form label {
+        font-size: 0.7rem;
+        width: 18vw;
+    }
+
+    .your-form input {
+        font-size: 0.5rem;
+        padding: 1rem;
+    }
+
+    .your-form select {
+        text-align: start;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .your-form button {
+        padding: 0.5rem;
+        width: 20vw;
+        height: 2rem;
+        font-size: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    footer {
+        margin: -1rem;
+    }
+
+    .footer-container {
+        padding: 0.1rem;
+        gap: 1.1rem;
+    }
+
+    .logo-container img {
+        margin-left: 0.5rem;
+        height: 1rem;
+        width: 4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .links-container {
+        gap: 1.7rem;
+    }
+
+    .fa-brands {
+        height: 0.1rem;
+        width: 0.2rem;
+    }
+
+    .logo-container p {
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+    .footer-container h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .footer-container h4 {
+        font-size: 0.7rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+@media (min-width:451px) {
+    .setting-icon {
+        display: none !important;
+    }
 }
