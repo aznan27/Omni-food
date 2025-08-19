@@ -540,7 +540,6 @@ p {
 .all-recipes {
     text-align: center;
     font-size: 1.2rem;
-
 }
 
 .link:link,
@@ -669,10 +668,12 @@ p {
     color: #cf711f;
     font-weight: 500;
     font-size: 1.1rem;
+    text-align: center;
 }
 
 .fifth-info {
     font-size: 2.4rem;
+    text-align: center;
 }
 
 .sign-card {
@@ -1052,7 +1053,7 @@ footer {
         padding: 2rem;
     }
 
-    .container {
+    .all-recipes {
         padding: 1rem;
     }
 
@@ -1354,6 +1355,10 @@ footer {
         gap: 1rem;
         padding: 0.2rem;
         align-items: center;
+    }
+
+    .about-us {
+        margin-top: 2rem;
     }
 
     .labelling {
