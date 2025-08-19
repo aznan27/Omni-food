@@ -767,6 +767,8 @@ p {
 
 .section-six {
     padding: 0 0 100px;
+    background-image: url(https://demo.athemes.com/sp--restaurant/wp-content/uploads/sites/157/2023/06/Rectangle-832.jpg);
+    background-size: cover;
 }
 
 .sign-up-option {
@@ -1311,13 +1313,12 @@ footer {
     }
 
     .images-feedback {
-        width: 40vw;
+        width: 100%;
         gap: 1px;
-        margin-left: 5.5rem;
     }
 
     .gallery-img {
-        width: 5rem;
+        width: 8rem;
     }
 
     .section-five {
@@ -1347,14 +1348,26 @@ footer {
     }
 
     .sign-up-container {
+        display: flex;
+        flex-direction: column;
         margin: 0.2rem;
-        gap: 0.5rem;
+        gap: 1rem;
         padding: 0.2rem;
+        align-items: center;
+    }
+
+    .labelling {
+        width: 10rem;
+        top: 1.5rem;
+        right: -3rem;
+        padding: 0.2rem;
+        font-size: 0.5rem;
     }
 
     .sign-card {
-        height: 30vh;
-        padding: 0.9rem;
+        padding: 1rem;
+        height: 18rem;
+        width: 13rem;
     }
 
     .starter-name {
@@ -1377,6 +1390,7 @@ footer {
     }
 
     .meal-list {
+        margin-left: 1rem;
         gap: 0.1rem;
     }
 
@@ -1389,8 +1403,9 @@ footer {
     }
 
     .signed-card {
-        height: 30vh;
-        padding: 0.9rem;
+        padding: 1rem;
+        height: 19rem;
+        width: 13rem;
     }
 
     .meal-list-two {
@@ -1407,28 +1422,32 @@ footer {
     }
 
     .review-about {
+        display: flex;
+        flex-direction: column;
         margin: 2.5rem;
-        gap: 0.2rem;
+        gap: 0.5rem;
     }
 
+    /* 
     .infinite-icon {
         font-size: 0.5rem;
-    }
+    } */
 
     .f-one-about {
         line-height: 1rem;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
     }
 
     .f-one-description {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         line-height: normal;
         margin-top: 1rem;
     }
 
     .section-six {
         display: flex;
-        padding: 0.2rem 0.2rem 0.2rem 5rem;
+        padding: 1rem;
     }
 
     .last-card-container {
@@ -1439,24 +1458,27 @@ footer {
     }
 
     .form-img {
-        height: 15rem;
+        /* height: 15rem;
         width: 15rem;
         border-top-left-radius: 10px;
         border-bottom-right-radius: 0px;
-        text-align: center;
+        text-align: center; */
+        display: none;
     }
 
-    .orng-crd {
-        height: 22rem;
-        width: 15rem;
-        padding: 0.5rem;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
 
+
+    .orng-crd {
+        background-image: none;
+        background-color: rgba(255, 153, 0, 0.80);
+        height: 23rem;
+        width: 70%;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
     }
 
     .head-para>.heading {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
         margin-bottom: 0.5rem;
     }
@@ -1473,32 +1495,39 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-top: 1rem;
-        gap: 0.4rem;
+        gap: 1rem;
+        padding: 0.5rem;
     }
 
     .your-form label {
-        text-align: center;
         font-size: 0.7rem;
-        width: 18vw;
+    }
+
+    .your-form div {
+        width: 100%;
     }
 
     .your-form input {
+        width: 100%;
         font-size: 0.5rem;
-        padding: 1rem;
+        padding: 0.5rem;
+        background-color: white;
     }
 
     .your-form select {
         text-align: start;
         font-size: 0.5rem;
         padding: 0.5rem;
+        width: 100%;
+        background-color: white;
     }
 
     .your-form button {
         padding: 0.5rem;
-        width: 20vw;
+        width: 100%;
         height: 2rem;
-        font-size: 0.5rem;
-        margin-top: 1rem;
+        font-size: 0.7rem;
+        margin-top: 0.5rem;
     }
 
     footer {
@@ -1506,19 +1535,21 @@ footer {
     }
 
     .footer-container {
-        padding: 0.1rem;
-        gap: 1.1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2rem;
+        padding: 1rem;
     }
 
     .logo-container img {
-        margin-left: 0.5rem;
-        height: 1rem;
-        width: 4rem;
-        margin-bottom: 0.5rem;
+        width: 100%;
+        margin-bottom: 1.5rem;
     }
 
     .links-container {
-        gap: 1.7rem;
+        justify-content: flex-start;
+        gap: 2rem;
     }
 
     .fa-brands {
@@ -1533,12 +1564,10 @@ footer {
 
     .footer-container h2 {
         font-size: 1rem;
-        text-align: center;
     }
 
     .footer-container h4 {
         font-size: 0.7rem;
-        text-align: center;
         margin-bottom: 0.5rem;
     }
 }
