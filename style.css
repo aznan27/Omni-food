@@ -910,11 +910,14 @@ p {
     margin-top: 1.6rem;
 }
 
+footer {
+    border-top: 1px solid rgb(219, 219, 219);
+    padding: 7rem 15rem;
+}
+
 .footer-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 6rem 0;
-    gap: 5rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo-container img {
@@ -975,11 +978,7 @@ button:hover {
     list-style: none;
 }
 
-footer {
-    margin: 0 290px;
-    padding: 20px;
 
-}
 
 @media (max-width:450px) {
     .main-nav-list {
@@ -1536,14 +1535,14 @@ footer {
     }
 
     footer {
-        margin: -1rem;
+        padding: 0;
     }
 
     .footer-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 2rem;
+        gap: 1rem;
         padding: 1rem;
     }
 
