@@ -1577,4 +1577,8 @@ footer {
     .setting-icon {
         display: none !important;
     }
+
+    .section-six {
+        background-image: none;
+    }
 }
