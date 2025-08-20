@@ -921,8 +921,10 @@ footer {
 }
 
 .logo-container img {
+    height: 1rem;
     margin-bottom: 2.5rem;
 }
+
 
 .logo-container p {
     font-size: 1rem;
@@ -1553,6 +1555,11 @@ button:hover {
 
     .links-container {
         justify-content: flex-start;
+        gap: 2rem;
+    }
+
+    .icon-container {
+        display: flex;
         gap: 2rem;
     }
 
