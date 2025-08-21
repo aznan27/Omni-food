@@ -609,8 +609,7 @@ p {
 }
 
 .gallery-img {
-
-    width: 15rem;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -1327,7 +1326,7 @@ button:hover {
     }
 
     .gallery-img {
-        width: 8rem;
+        width: 100%;
     }
 
     .section-five {
