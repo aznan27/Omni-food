@@ -1312,8 +1312,7 @@ button:hover {
 
 
     .review-img-container {
-
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     .tips {
@@ -1327,6 +1326,11 @@ button:hover {
 
     .gallery-img {
         width: 100%;
+    }
+
+    .feedback {
+        display: flex;
+        flex-direction: column;
     }
 
     .section-five {
