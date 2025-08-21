@@ -442,6 +442,7 @@ p {
 
 .hakla {
     height: 15rem;
+    object-fit: cover;
 }
 
 .vegeterian {
@@ -980,6 +981,12 @@ button:hover {
     list-style: none;
 }
 
+.icon-container {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
 
 
 @media (max-width:450px) {
@@ -1168,6 +1175,7 @@ button:hover {
         width: 100%;
         border-top-right-radius: 2rem;
         border-top-left-radius: 2rem;
+        object-fit: cover;
 
     }
 
@@ -1258,7 +1266,7 @@ button:hover {
     }
 
     li.calories {
-        font-size: 0.9rem;
+        font-size: 0.77rem;
         display: flex;
         gap: 0.3rem;
     }
@@ -1553,14 +1561,13 @@ button:hover {
         margin-bottom: 1.5rem;
     }
 
-    .links-container {
-        justify-content: flex-start;
-        gap: 2rem;
-    }
+    /* .social-container {
+        display: flex;
+    } */
 
     .icon-container {
         display: flex;
-        gap: 2rem;
+        gap: 2.3rem;
     }
 
     .fa-brands {
