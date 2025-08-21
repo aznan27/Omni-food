@@ -1140,10 +1140,10 @@ button:hover {
     }
 
     .phn-img {
+        width: 10rem;
         height: 20rem;
         bottom: 1.2rem;
-        left: 5.2rem;
-
+        left: 5rem;
     }
 
     .small-circle {
@@ -1541,7 +1541,7 @@ button:hover {
         width: 100%;
         height: 2rem;
         font-size: 0.7rem;
-        margin-top: 0.5rem;
+        margin-top: 0rem;
     }
 
     footer {
@@ -1587,6 +1587,10 @@ button:hover {
     .footer-container h4 {
         font-size: 0.7rem;
         margin-bottom: 0.5rem;
+    }
+
+    .icon-container i {
+        font-size: 1.3rem;
     }
 }
 
